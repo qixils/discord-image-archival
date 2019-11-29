@@ -64,7 +64,7 @@ async def on_ready():
                 #key = message.author.id # stores by author id
                 key = slugify(f"{message.author.name}#{message.author.discriminator} {message.author.id}")
                 key2 = slugify(f"{channel.name} {channel.id}")
-                pathbase = os.path.join(DOWNLOAD_FOLDER, key)
+                pathbase = os.path.join(DOWNLOAD_FOLDER, key, key2)
 
                 if key not in downloaded:
                     downloaded[key] = {}
