@@ -8,3 +8,4 @@ Downloads every image ever posted in a server, sorted by user and by channel.
 
 - [ ] Replace fixed variables with command-line inputs
 - [ ] Add options to change how images are stored
+- [ ] Check if file is a valid image? (ie, not an HTML error page)
